@@ -21,6 +21,10 @@ public class SamplePrg {
 		{
 			System.out.println(i);
 		}
+		Access_Mod obj1=new Access_Mod();
+		obj1.login();
+		//System.out.println(obj1.i);//this wont work if the variable is private in the other class
+		//obj.password();//this will throw error
 
 	}
 
